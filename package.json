@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/the-human-team/the-store-prototype#readme",
   "devDependencies": {
-    "sass": "^1.26.11"
+    "sass": "^1.26.11",
+    "serve": "^11.3.2"
   }
 }
