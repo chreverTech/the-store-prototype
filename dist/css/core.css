@@ -50,4 +50,32 @@ body {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
 }
+
+.scrolling-wrapper {
+  overflow-x: auto;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  opacity: 0.65;
+}
+
+.card-block {
+  height: 250px;
+  background-color: #fff;
+  border: none;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(110, 201, 247, 0.8)), to(rgba(102, 31, 173, 0.8))), url("https://source.unsplash.com/1024x1024?mountains");
+  background: linear-gradient(to right bottom, rgba(110, 201, 247, 0.8), rgba(102, 31, 173, 0.8)), url("https://source.unsplash.com/1024x1024?mountains");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-in-out !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.card-block:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=core.css.map */
